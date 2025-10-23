@@ -14,22 +14,13 @@ body {
   color: #e2e2e2;
 }
 
-h1 {
-  font-size: 4vw;
-}
-
-h2 {
-  font-size: 2vw;
-}
-
 img {
   height: auto;
   margin: 2%;
-}
-
-li,
-p {
-  font-size: 1vw;
+  li,
+  p {
+    font-size: 1vw;
+  }
 }
 
 @media (min-aspect-ratio: 4/3) {
@@ -39,6 +30,17 @@ p {
   table {
     width: 50%;
   }
+  h1 {
+    font-size: 4vw;
+  }
+
+  h2 {
+    font-size: 2vw;
+  }
+  li,
+  p {
+    font-size: 1vw;
+  }
 }
 @media (max-aspect-ratio: 4/3) {
   img {
@@ -46,6 +48,17 @@ p {
   }
   table {
     width: 90%;
+  }
+  h1 {
+    font-size: 8vw;
+  }
+
+  h2 {
+    font-size: 4vw;
+  }
+  li,
+  p {
+    font-size: 2vw;
   }
 }
 tr {
