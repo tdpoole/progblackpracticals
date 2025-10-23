@@ -17,10 +17,6 @@ body {
 img {
   height: auto;
   margin: 2%;
-  li,
-  p {
-    font-size: 1vw;
-  }
 }
 
 @media (min-aspect-ratio: 4/3) {
