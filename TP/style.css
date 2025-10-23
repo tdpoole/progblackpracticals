@@ -1,0 +1,71 @@
+/* Based on styling-lists.html */
+
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 10px;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #860000;
+  color: #e2e2e2;
+}
+
+h1 {
+  font-size: 4vw;
+}
+
+h2 {
+  font-size: 2vw;
+}
+
+img {
+  height: auto;
+  margin: 2%;
+}
+
+li,
+p {
+  font-size: 1vw;
+}
+
+@media screen and (min-device-aspect-ratio: 1/1) {
+  img {
+    width: 50%;
+  }
+  table {
+    width: 50%;
+  }
+}
+@media screen and (max-device-aspect-ratio: 1/1) {
+  img {
+    width: 90%;
+  }
+  table {
+    width: 90%;
+  }
+}
+tr {
+  width: 100%;
+}
+
+iframe {
+  width: 100%;
+}
+/* Unordered list styles */
+.lightbox {
+  border: solid;
+  border-color: black;
+  border-width: 5px;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+
+ul {
+  padding: 1%;
+  padding-left: 5rem;
+  color: black;
+}
